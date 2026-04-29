@@ -1,0 +1,300 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\dtos\\despesaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:dtos\\despesaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\dtos\\responses\\tagresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:dtos\\responses\\tagresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\dtos\\responses\\categoriaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:dtos\\responses\\categoriaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\dtos\\responses\\despesaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:dtos\\responses\\despesaresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\models\\despesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:models\\despesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\services\\despesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:services\\despesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\profiles\\despesaprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:profiles\\despesaprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:controllers\\tagcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\datacontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:datacontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\controllers\\despesacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:controllers\\despesacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\apifinanceiro.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:apifinanceiro.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\exceptions\\errorserviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:exceptions\\errorserviceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DespesaService.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Services\\DespesaService.cs",
+              "RelativeDocumentMoniker": "Services\\DespesaService.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Services\\DespesaService.cs",
+              "RelativeToolTip": "Services\\DespesaService.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAUwMsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T23:31:33.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DespesaProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Profiles\\DespesaProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\DespesaProfile.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Profiles\\DespesaProfile.cs",
+              "RelativeToolTip": "Profiles\\DespesaProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T23:24:47.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DespesaUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Dtos\\DespesaUpdateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\DespesaUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Dtos\\DespesaUpdateDto.cs",
+              "RelativeToolTip": "Dtos\\DespesaUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T23:58:32.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Despesa.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Models\\Despesa.cs",
+              "RelativeDocumentMoniker": "Models\\Despesa.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Models\\Despesa.cs",
+              "RelativeToolTip": "Models\\Despesa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T01:23:54.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TagController.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Controllers\\TagController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TagController.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Controllers\\TagController.cs",
+              "RelativeToolTip": "Controllers\\TagController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T23:50:42.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Models\\Categoria.cs",
+              "RelativeToolTip": "Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T23:37:39.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\DataContexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DataContexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\DataContexts\\AppDbContext.cs",
+              "RelativeToolTip": "DataContexts\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T23:41:03.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Models\\Tag.cs",
+              "RelativeToolTip": "Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T01:27:08.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriaResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Dtos\\Responses\\CategoriaResponseDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Responses\\CategoriaResponseDto.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Dtos\\Responses\\CategoriaResponseDto.cs",
+              "RelativeToolTip": "Dtos\\Responses\\CategoriaResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T00:18:21.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DespesaResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Dtos\\Responses\\DespesaResponseDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Responses\\DespesaResponseDto.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Dtos\\Responses\\DespesaResponseDto.cs",
+              "RelativeToolTip": "Dtos\\Responses\\DespesaResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T00:18:37.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TagResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Dtos\\Responses\\TagResponseDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Responses\\TagResponseDto.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Dtos\\Responses\\TagResponseDto.cs",
+              "RelativeToolTip": "Dtos\\Responses\\TagResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T00:21:02.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DespesaController.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Controllers\\DespesaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DespesaController.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Controllers\\DespesaController.cs",
+              "RelativeToolTip": "Controllers\\DespesaController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAowGkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T23:53:37.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApiFinanceiro.http",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\ApiFinanceiro.http",
+              "RelativeDocumentMoniker": "ApiFinanceiro.http",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\ApiFinanceiro.http",
+              "RelativeToolTip": "ApiFinanceiro.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-04-07T23:59:49.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T00:25:40.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T23:46:07.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-17T23:41:37.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ErrorServiceException.cs",
+              "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Exceptions\\ErrorServiceException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\ErrorServiceException.cs",
+              "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Exceptions\\ErrorServiceException.cs",
+              "RelativeToolTip": "Exceptions\\ErrorServiceException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T01:11:25.251Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

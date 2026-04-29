@@ -1,0 +1,6 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio - arquivo de preferências locais do usuário
+*.user
