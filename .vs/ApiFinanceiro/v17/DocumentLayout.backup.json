@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\services\\despesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:services\\despesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\dtos\\despesaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:dtos\\despesaupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\services\\despesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|solutionrelative:services\\despesaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{59DE9DC5-E2DB-4703-BFBE-5725D17D1BE4}|ApiFinanceiro.csproj|c:\\users\\guilh\\documents\\ifro curso\\2026.1\\programa\u00E7\u00E3o com acesso a banco de dados\\newapifinanceiro2\\profiles\\despesaprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,17 +78,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "DespesaService.cs",
               "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Services\\DespesaService.cs",
               "RelativeDocumentMoniker": "Services\\DespesaService.cs",
               "ToolTip": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Services\\DespesaService.cs",
               "RelativeToolTip": "Services\\DespesaService.cs",
-              "ViewState": "AgIAALkAAAAAAAAAAAAUwMsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAIwL8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-24T23:31:33.003Z",
               "EditorCaption": ""
@@ -107,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DespesaUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Dtos\\DespesaUpdateDto.cs",
               "RelativeDocumentMoniker": "Dtos\\DespesaUpdateDto.cs",
@@ -120,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Despesa.cs",
               "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Models\\Despesa.cs",
               "RelativeDocumentMoniker": "Models\\Despesa.cs",
@@ -128,8 +128,7 @@
               "RelativeToolTip": "Models\\Despesa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T01:23:54.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T01:23:54.17Z"
             },
             {
               "$type": "Document",
@@ -145,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "Models\\Categoria.cs",
@@ -153,8 +152,7 @@
               "RelativeToolTip": "Models\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T23:37:39.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-07T23:37:39.411Z"
             },
             {
               "$type": "Document",
@@ -170,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Models\\Tag.cs",
               "RelativeDocumentMoniker": "Models\\Tag.cs",
@@ -178,12 +176,11 @@
               "RelativeToolTip": "Models\\Tag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T01:27:08.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T01:27:08.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CategoriaResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Dtos\\Responses\\CategoriaResponseDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Responses\\CategoriaResponseDto.cs",
@@ -191,12 +188,11 @@
               "RelativeToolTip": "Dtos\\Responses\\CategoriaResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T00:18:21.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T00:18:21.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DespesaResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Dtos\\Responses\\DespesaResponseDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Responses\\DespesaResponseDto.cs",
@@ -204,12 +200,11 @@
               "RelativeToolTip": "Dtos\\Responses\\DespesaResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T00:18:37.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T00:18:37.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TagResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Guilh\\Documents\\IFRO Curso\\2026.1\\Programa\u00E7\u00E3o com Acesso a Banco de Dados\\NewApiFinanceiro2\\Dtos\\Responses\\TagResponseDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Responses\\TagResponseDto.cs",
@@ -217,8 +212,7 @@
               "RelativeToolTip": "Dtos\\Responses\\TagResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T00:21:02.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T00:21:02.319Z"
             },
             {
               "$type": "Document",

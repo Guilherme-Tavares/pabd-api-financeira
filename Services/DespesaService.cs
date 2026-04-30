@@ -189,20 +189,35 @@ namespace ApiFinanceiro.Services
             }
         }
 
-        // TODO: despesa.Tags.Remove()
-        //public async Task RemoveTags(int id)
-        //{
-        //    try
-        //    {
-        //        var despesa = await FindById(id);
+        public async Task<Despesa> removeTags(int id, DespesaTagsDto tag)
+        {
+            try
+            {
+                var despesa = await FindById(id);
 
-        //        _context.Despesas.Remove(despesa.Tags.Remove);
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (Exception)
-        //    {
-        //        throw;
-        //    }
-        //}
+                var tags = await _context.Tags.Where(x => tag.Ids.Contains(x.Id)).ToListAsync();
+
+                if (tags.Count == 0)
+                {
+                    throw new ErrorServiceException("Tags não econtradas",
+                        c => c.NotFound(new { message = $"Tags não encontradas" }));
+                }
+
+                foreach (Tag _tag in tags)
+                {
+                    if (despesa.Tags.Any(t => t.Id != _tag.Id))
+                    {
+                        despesa.Tags.Remove(_tag);
+                    }
+                }
+                await _context.SaveChangesAsync();
+
+                return despesa;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }
