@@ -6,6 +6,7 @@ using ApiFinanceiro.DataContexts;
 using Microsoft.EntityFrameworkCore;
 using ApiFinanceiro.Services;
 using ApiFinanceiro.Exceptions;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ApiFinanceiro.Controllers
 {
@@ -13,6 +14,7 @@ namespace ApiFinanceiro.Controllers
 
     // Annotation
     [ApiController]
+    [Authorize]
     public class DespesaController : ControllerBase
     {
         private readonly AppDbContext _context;
