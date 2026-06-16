@@ -1,13 +1,13 @@
-﻿using ApiFinanceiro.DataContexts;
+﻿using ApiFinanceiro.Controllers.Filters;
+using ApiFinanceiro.DataContexts;
 using ApiFinanceiro.Dtos;
 using ApiFinanceiro.Dtos.Responses;
 using ApiFinanceiro.Exceptions;
+using ApiFinanceiro.Helpers.Paginated;
 using ApiFinanceiro.Models;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ApiFinanceiro.Services
 {
@@ -30,16 +30,16 @@ namespace ApiFinanceiro.Services
                 /**
                  * SQL: Seleciona todas as colunas
                 */
-                var list = await _context.Despesas
-                    .Include(d => d.Categoria)
-                    .Include(d => d.Tags)
-                    .ToListAsync();
+                //var list = await _context.Despesas
+                //    .Include(d => d.Categoria)
+                //    .Include(d => d.Tags)
+                //    .ToListAsync();
 
                 /**
                  * Mapper: filtra a lista de despesas e retorna somente
                  * os atributos que estão em DespesaResponseDto
                 */
-                return _mapper.Map<ICollection<DespesaResponseDto>>(list);
+                //return _mapper.Map<ICollection<DespesaResponseDto>>(list);
 
                 /**
                  * Melhor uso, na SQL faz o SELECT somente das colunas adicionadas
@@ -49,6 +49,11 @@ namespace ApiFinanceiro.Services
                 //       .Include(d => d.Categoria)
                 //       .ProjectTo<DespesaResponseDto>(_mapper.ConfigurationProvider)
                 //       .ToListAsync();
+
+                return await _context.Despesas
+                    .ProjectTo<DespesaResponseDto>(_mapper.ConfigurationProvider)
+                    .ToListAsync();
+
             }
             catch (Exception)
             {
@@ -56,57 +61,29 @@ namespace ApiFinanceiro.Services
             }
         }
 
-        public async Task<Despesa> AddTags(int id, DespesaTagsDto tag)
+        public async Task<PaginatedResponse<DespesaResponseDto>> FindAllV2(DespesaFilter filter)
         {
             try
             {
-                var despesa = await FindById(id);
+                var query = _context.Despesas.AsQueryable();
 
-                var tags = await _context.Tags.Where(x => tag.Ids.Contains(x.Id)).ToListAsync();
-
-                if (tags.Count == 0)
+                if (filter.Search is not null)
                 {
-                    throw new ErrorServiceException("Tags não econtradas",
-                        c => c.NotFound(new { message = $"Tags não encontradas" }));
+                    query = query.Where(x => x.Descricao.Contains(filter.Search));
                 }
 
-                foreach(Tag _tag in tags)
+                if (filter.Situacao is not null)
                 {
-                    if (despesa.Tags.Any(t => t.Id != _tag.Id))
-                    {
-                        despesa.Tags.Add(_tag);
-                    }    
+                    query = query.Where(x => x.Situacao == filter.Situacao);
                 }
-                await _context.SaveChangesAsync();
 
-                return despesa;       
+
+                return await Paginate<Despesa>.Set<DespesaResponseDto>(query, filter, _mapper);
             }
             catch (Exception)
             {
                 throw;
             }
-        }
-        
-        public async Task<Despesa> FindById(int id)
-        {
-            var despesa = await _context.Despesas.Include(d => d.Tags).FirstOrDefaultAsync(x => x.Id == id);
-
-            try
-            {
-                if (despesa is null)
-                {
-                    throw new ErrorServiceException($"Despesa #{id} não encontrada",
-                        c => c.NotFound(new { message = $"Despesa #{id} não encontrada" }));
-                }
-
-                return despesa;
-
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-
         }
 
         public async Task<Despesa> Create(DespesaDto data)
@@ -132,7 +109,30 @@ namespace ApiFinanceiro.Services
             {
                 throw;
             }
-            
+
+        }
+
+        public async Task<Despesa> FindById(int id)
+        {            
+
+            try
+            {
+                var despesa = await _context.Despesas.Include(d => d.Tags).FirstOrDefaultAsync(x => x.Id == id);
+
+                if (despesa is null)
+                {
+                    throw new ErrorServiceException($"Despesa #{id} não encontrada",
+                        c => c.NotFound(new { message = $"Despesa #{id} não encontrada" }));
+                }
+
+                return despesa;
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
         }
 
         public async Task<Despesa> Update(int id, DespesaUpdateDto data)
@@ -149,8 +149,8 @@ namespace ApiFinanceiro.Services
                         c => c.NotFound(new { message = $"Categoria #{data.CategoriaId} não encontrada" }));
                 }
 
-                var dataVencimento = new DateTime(despesa.DataVencimento.Year, despesa.DataVencimento.Month, despesa.DataVencimento.Day);
-                var dataPagamento = new DateTime(data.DataPagamento.Year, data.DataPagamento.Month, data.DataPagamento.Day);
+                //var dataVencimento = new DateTime(despesa.DataVencimento.Year, despesa.DataVencimento.Month, despesa.DataVencimento.Day);
+                //var dataPagamento = new DateTime(data.DataPagamento.Year, data.DataPagamento.Month, data.DataPagamento.Day);
 
 
                 // TODO: adicionar data de emissão
@@ -174,6 +174,37 @@ namespace ApiFinanceiro.Services
             }
         }
 
+        public async Task<Despesa> AddTags(int id, DespesaTagsDto tag)
+        {
+            try
+            {
+                var despesa = await FindById(id);
+
+                var tags = await _context.Tags.Where(x => tag.Ids.Contains(x.Id)).ToListAsync();
+
+                if (tags.Count == 0)
+                {
+                    throw new ErrorServiceException("Tags não econtradas",
+                        c => c.NotFound(new { message = $"Tags não encontradas" }));
+                }
+
+                foreach(Tag _tag in tags)
+                {
+                    if (!despesa.Tags.Any(t => t.Id == _tag.Id))
+                    {
+                        despesa.Tags.Add(_tag);
+                    }    
+                }
+                await _context.SaveChangesAsync();
+
+                return despesa;       
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }                        
+
         public async Task Remove(int id)
         {
             try
@@ -189,7 +220,7 @@ namespace ApiFinanceiro.Services
             }
         }
 
-        public async Task<Despesa> removeTags(int id, DespesaTagsDto tag)
+        public async Task<Despesa> RemoveTags(int id, DespesaTagsDto tag)
         {
             try
             {
@@ -205,7 +236,7 @@ namespace ApiFinanceiro.Services
 
                 foreach (Tag _tag in tags)
                 {
-                    if (despesa.Tags.Any(t => t.Id != _tag.Id))
+                    if (despesa.Tags.Any(t => t.Id == _tag.Id))
                     {
                         despesa.Tags.Remove(_tag);
                     }

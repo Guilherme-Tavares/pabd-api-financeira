@@ -41,7 +41,7 @@ namespace ApiFinanceiro.Controllers
         {
             try
             {
-                await _service.removeTags(id, tag);
+                await _service.RemoveTags(id, tag);
                 return Ok();
             }
             catch (Exception ex)

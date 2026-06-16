@@ -65,6 +65,22 @@ namespace ApiFinanceiro.Controllers
             //return Ok(new { token });
         }
 
+        [HttpPost("registro")]
+        public async Task<IActionResult> Registro([FromBody] UsuarioDto user)
+        {
+            var novoUsuario = new Usuario
+            {
+                Nome = user.Nome,
+                Email = user.Email,
+                Senha = _hasher.HashPassword(null!, user.Senha)
+            };
+
+            _context.Usuarios.Add(novoUsuario);
+            await _context.SaveChangesAsync();
+
+            return Ok("Usuário criado com a senha criptografada!");
+        }
+
         private string GerarJwtToken(Usuario usuario)
         {
             var claims = new[]
